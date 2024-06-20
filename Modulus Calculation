@@ -1,0 +1,13 @@
+package test1;
+import java.util.Scanner;
+public class Apple{
+	public static void main(String args[]) {
+		Scanner entr = new Scanner(System.in);
+		
+		int first, second, calc;
+		first = 9;
+		second = 2;
+		calc = first % second;
+		System.out.println(calc);
+	}
+}
