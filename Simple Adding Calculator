@@ -1,0 +1,13 @@
+package test1;
+import java.util.Scanner;
+public class Apple{
+	public static void main(String args[]) {
+	Scanner entr = new Scanner(System.in);
+	System.out.println("1st: ");
+	double fnum = entr.nextDouble();
+	System.out.println("2nd: ");
+	double snum = entr.nextDouble();
+	double ans = fnum + snum;
+	System.out.print(ans);
+	}
+}
