@@ -1,0 +1,22 @@
+package test1;
+import java.util.Scanner;
+public class Apple{
+	public static void main(String args[]) {
+		int a = 0,b=3;
+		int and = b-a;
+		switch (a%b) {
+		case 3:
+			System.out.println("True");
+			break;
+		case 1:
+			System.out.println(and);
+			break;
+		case 0:
+			System.out.println("rte");
+			break;
+		default:
+			System.out.println("That's what's up");
+			
+		}
+	}
+}
