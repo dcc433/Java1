@@ -1,0 +1,12 @@
+package test1;
+import java.util.Scanner;
+public class Apple{
+	public static void main(String args[]) {
+		int a = 0,b=3;
+		int and = b-a;
+		if (a<1) {
+			System.out.println("hee then");
+			
+		}
+	}
+}
